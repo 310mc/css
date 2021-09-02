@@ -1,13 +1,13 @@
 [character="MidoriHappy"] {
-  --color:#00533f;
-  --light-mode:hsl(166, 54%, 93%);
-  --dark-mode:hsl(166, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
+  --color:#00533f !important;
+  --light-mode:hsl(166, 54%, 93%) !important;
+  --dark-mode:hsl(166, 12%, 25%) !important;
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png") !important;
 }
 [character="MidoriHappy"]::before {
-  content: "Midori";
+  content: "Midori" !important;
 }
 
 [character="Midori"][happy] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png") !important;
 }
