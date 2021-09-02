@@ -5,5 +5,5 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png")
 }
 [character="MidoriHappy"]::before {
-  content: 'Midori' !important;
+  content: "Midori";
 }
