@@ -2,5 +2,8 @@
   --color:#00533f;
   --light-mode:hsl(166, 54%, 93%);
   --dark-mode:hsl(166, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png")
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
+}
+[character="MidoriHappy"]::before {
+  content: "Midori";
 }
