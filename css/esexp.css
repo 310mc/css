@@ -1,13 +1,73 @@
 [character="MidoriHappy"] {
-  --color:#00533f !important;
-  --light-mode:hsl(166, 54%, 93%) !important;
-  --dark-mode:hsl(166, 12%, 25%) !important;
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png") !important;
+  --color:#00533f;
+  --light-mode:hsl(166, 54%, 93%);
+  --dark-mode:hsl(166, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
 }
 [character="MidoriHappy"]::before {
-  content: "Midori" !important;
+  content: "Midori";
 }
 
 [character="Midori"][happy] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png") !important;
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
+}
+
+/**
+Past Stories
+*/
+[character=ChiakiPast]{
+  --color:#e60033;
+  --light-mode:hsl(347, 54%, 93%);
+  --dark-mode:hsl(347, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast.png")
+}
+[character="ChiakiPast"]::before {
+  content: "Chiaki";
+}
+[character="ChiakiPast"][sad] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast_sad.png");
+}
+[character=KanataPast]{
+  --color:#008db7;
+  --light-mode:hsl(194, 54%, 93%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kanatapast.png")
+}
+[character="KanataPast"]::before {
+  content: "Kanata";
+}
+[character="KanataPast"][confused] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kanatapast_confused.png");
+}
+
+[character=KuroPast]{
+  --color:#e83929;
+  --light-mode:hsl(5, 54%, 93%);
+  --dark-mode:hsl(5, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast.png")
+}
+[character="KuroPast"]::before {
+  content: "Kuro";
+}
+[character="KuroPast"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_angry.png");
+}
+
+[character=KeitoPast]{
+  --color:#316745;
+  --light-mode:hsl(142, 54%, 93%);
+  --dark-mode:hsl(142, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/keitopast.png")
+}
+[character="KeitoPast"]::before {
+  content: "Keito";
+}
+
+[character=MadaraPast]{
+  --color:#622d18;
+  --light-mode:hsl(17, 54%, 93%);
+  --dark-mode:hsl(17, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/madarapast.png")
+}
+[character="MadaraPast"]::before {
+  content: "Madara";
 }
