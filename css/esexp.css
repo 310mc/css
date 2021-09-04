@@ -49,7 +49,7 @@ Past Stories
   content: "Kuro";
 }
 [character="KuroPast"][injured] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injured.png");
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injured.png") !important;
 }
 [character="KuroPast"][angry] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_angry.png");
