@@ -51,8 +51,11 @@ Past Stories
 [character="KuroPast"][injured] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injured.png") !important;
 }
-[character="KuroPast"][angry] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_angry.png");
+[character="KuroPast"][injuredangry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injuredangry.png");
+}
+[character="KuroPast"][injuredangrycg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injuredangrycg.png");
 }
 
 [character=KeitoPast]{
