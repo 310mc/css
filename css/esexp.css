@@ -12,9 +12,9 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
 }
 
-/**
+/********
 Past Stories
-*/
+*******/
 [character=ChiakiPast]{
   --color:#e60033;
   --light-mode:hsl(347, 54%, 93%);
@@ -27,6 +27,23 @@ Past Stories
 [character="ChiakiPast"][sad] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast_sad.png");
 }
+[character="ChiakiPast"][cry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast_cry.png");
+}
+[character="ChiakiPast"][serious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast_serious.png");
+}
+[character="ChiakiPast"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast_worried.png");
+}
+[character="ChiakiPast"][cg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast_cg.png");
+}
+[character="ChiakiPast"][bcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiakipast_bcg.png");
+}
+
+
 [character=KanataPast]{
   --color:#008db7;
   --light-mode:hsl(194, 54%, 93%);
@@ -38,6 +55,16 @@ Past Stories
 [character="KanataPast"][confused] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kanatapast_confused.png");
 }
+[character="KanataPast"][frown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kanatapast_frown.png");
+}
+[character="KanataPast"][smile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kanatapast_smile.png");
+}
+[character="KanataPast"][cg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kanatapast_cg.png");
+}
+
 
 [character=KuroPast]{
   --color:#e83929;
@@ -49,14 +76,24 @@ Past Stories
   content: "Kuro";
 }
 [character="KuroPast"][injured] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injured.png") !important;
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injured.png");
 }
 [character="KuroPast"][injuredangry] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injuredangry.png") !important;
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injuredangry.png");
 }
 [character="KuroPast"][injuredangrycg] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injuredangrycg.png") !important;
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injuredangrycg.png");
 }
+[character="KuroPast"][injuredsmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_injuredsmile.png");
+}
+[character="KuroPast"][smile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_smile.png");
+}
+[character="KuroPast"][bcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kuropast_bcg.png");
+}
+
 
 [character=KeitoPast]{
   --color:#316745;
@@ -67,6 +104,10 @@ Past Stories
 [character="KeitoPast"]::before {
   content: "Keito";
 }
+[character="KeitoPast"][cg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/keitopast_cg.png");
+}
+
 
 [character=MadaraPast]{
   --color:#622d18;
@@ -76,4 +117,41 @@ Past Stories
 }
 [character="MadaraPast"]::before {
   content: "Madara";
+}
+[character="MadaraPast"][bcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/madarapast_bcg.png");
+}
+
+
+[character=SubaruPast]{
+  --color:#f3981d;
+  --light-mode:hsl(34, 54%, 93%);
+  --dark-mode:hsl(34, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/subarupast.png")
+}
+[character="SubaruPast"]::before {
+  content: "Subaru";
+}
+[character="SubaruPast"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subarupast_angry.png");
+}
+[character="SubaruPast"][happy] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subarupast_happy.png");
+}
+
+
+[character=SoumaPast]{
+  --color:#5654a2;
+  --light-mode:hsl(242, 54%, 93%);
+  --dark-mode:hsl(242, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/souma.png")
+}
+[character="SoumaPast"]::before {
+  content: "Souma";
+}
+[character="SoumaPast"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/soumapast_worried.png");
+}
+[character="SoumaPast"][cg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/soumapast_cg.png");
 }
