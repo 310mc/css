@@ -144,7 +144,7 @@ Past Stories
   --color:#5654a2;
   --light-mode:hsl(242, 54%, 93%);
   --dark-mode:hsl(242, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/souma.png")
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/soumapast.png")
 }
 [character="SoumaPast"]::before {
   content: "Souma";
@@ -155,10 +155,13 @@ Past Stories
 [character="SoumaPast"][cg] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/soumapast_cg.png");
 }
-
+/**
+***/
 
 /** Varied Expressions
-****/
+***/
 [character="Shu"][distress] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/shu_distress.png");
 }
+/**
+***/
