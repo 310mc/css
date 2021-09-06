@@ -99,7 +99,7 @@ Past Stories
   --color:#316745;
   --light-mode:hsl(142, 54%, 93%);
   --dark-mode:hsl(142, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/keitopast.png")
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/keito.png")
 }
 [character="KeitoPast"]::before {
   content: "Keito";
@@ -139,12 +139,11 @@ Past Stories
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subarupast_happy.png");
 }
 
-
 [character=SoumaPast]{
   --color:#5654a2;
   --light-mode:hsl(242, 54%, 93%);
   --dark-mode:hsl(242, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/soumapast.png")
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/souma.png")
 }
 [character="SoumaPast"]::before {
   content: "Souma";
@@ -162,6 +161,15 @@ Past Stories
 ***/
 [character="Shu"][distress] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/shu_distress.png");
+}
+[character="Subaru"][sad] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subaru_sad.png");
+}
+[character="Subaru"][serious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subaru_serious.png");
+}
+[character="Subaru"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subaru_worried.png");
 }
 /**
 ***/
