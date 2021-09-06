@@ -99,7 +99,7 @@ Past Stories
   --color:#622d18;
   --light-mode:hsl(17, 54%, 93%);
   --dark-mode:hsl(17, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/madarapast.png")
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/madarapast_bcg.png")
 }
 [character="MadaraPast"]::before {
   content: "Madara";
