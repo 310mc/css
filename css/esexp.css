@@ -1,17 +1,3 @@
-[character="MidoriHappy"] {
-  --color:#00533f;
-  --light-mode:hsl(166, 54%, 93%);
-  --dark-mode:hsl(166, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
-}
-[character="MidoriHappy"]::before {
-  content: "Midori";
-}
-
-[character="Midori"][happy] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
-}
-
 /********
 Past Stories
 *******/
@@ -162,6 +148,8 @@ Past Stories
 [character="Shu"][distress] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/shu_distress.png");
 }
+
+
 [character="Subaru"][sad] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subaru_sad.png");
 }
@@ -173,3 +161,21 @@ Past Stories
 }
 /**
 ***/
+
+/** Test ing
+**/
+[character="MidoriHappy"] {
+  --color:#00533f;
+  --light-mode:hsl(166, 54%, 93%);
+  --dark-mode:hsl(166, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
+}
+[character="MidoriHappy"]::before {
+  content: "Midori";
+}
+
+[character="Midori"][happy] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
+}
+/**
+**/
