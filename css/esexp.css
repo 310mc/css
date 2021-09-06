@@ -140,6 +140,9 @@ Past Stories
 [character="SoumaPast"][cg] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/soumapast_cg.png");
 }
+[character="SoumaPast"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/soumapast_angry.png");
+}
 /**
 ***/
 
