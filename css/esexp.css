@@ -165,18 +165,80 @@ Past Stories
 /**
 ***/
 
-/** Test ing
-**/
-[character="MidoriHappy"] {
+/** Midori Expressions
+***/
+[character="Midori2"] {
   --color:#00533f;
   --light-mode:hsl(166, 54%, 93%);
   --dark-mode:hsl(166, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori2.png");
 }
-[character="MidoriHappy"]::before {
+[character="Midori2"]::before {
   content: "Midori";
 }
+[character="Midori"][smile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_smile.png");
+}
+[character="Midori"][curious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_curious.png");
+}
+[character="Midori"][serious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_serious.png");
+}
+[character="Midori"][sigh] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_sigh.png");
+}
+[character="Midori"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_worried.png");
+}
+/**
+***/
 
+/** Chiaki Expressions
+***/
+[character="Chiaki"][smile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_smile.png");
+}
+[character="Chiaki"][sad] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_sad.png");
+}
+[character="Chiaki"][awkward] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_awkward.png");
+}
+[character="Chiaki"][frown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_frown.png");
+}
+[character="Chiaki"][serious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_serious.png");
+}
+[character="Chiaki"][thinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_thinking.png");
+}
+[character="Chiaki"][surprised] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_surprised.png");
+}
+[character="Chiaki"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_worried.png");
+}
+/**
+***/
+
+/** Comet Show
+***/
+[character="Midori"][cscg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_cscg.png");
+}
+[character="Midori"][csbcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_csbcg.png");
+}
+[character="Chiaki"][csbcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_csbcg.png");
+}
+/**
+***/
+
+/** Test ing
+**/
 [character="Midori"][happy] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midorihappy.png");
 }
