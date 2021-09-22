@@ -186,6 +186,10 @@ Past Stories
 [character="Tetora"][sad] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/tetora_sad.png");
 }
+
+[character="Tetora"][shinobu] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/tetora_shinobu.png");
+}
 /**
 ***/
 
@@ -217,6 +221,12 @@ Past Stories
 }
 [character="Midori"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_worried.png");
+}
+[character="Midori"][sad] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_sad.png");
+}
+[character="Midori"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_angry.png");
 }
 /**
 ***/
