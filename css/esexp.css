@@ -261,6 +261,9 @@ Past Stories
 [character="Chiaki"][csbcg] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/chiaki_csbcg.png");
 }
+[character="Kanata"][csbcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/kanata_csbcg.png");
+}
 [character="Huge Kaijuu"] {
   --color:#122330;
   --light-mode:hsl(206, 15%, 84%);
