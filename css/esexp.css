@@ -188,6 +188,9 @@ Past Stories
 [character="Midori"][sigh] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_sigh.png");
 }
+[character="Midori"][sweat] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_sweat.png");
+}
 [character="Midori"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/midori_worried.png");
 }
