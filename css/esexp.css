@@ -195,9 +195,14 @@ Past Stories
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/tetora_sad.png");
 }
 
-
-[character="Tetora"][shinobu] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/tetora_shinobu.png");
+[character=TetoraS]{
+  --color:#302833;
+  --light-mode:hsl(284, 9%, 94%);
+  --dark-mode:hsl(284, 5%, 24%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/tetora_shinobu.png")
+}
+[character="TetoraS"]::before {
+  content: "Tetora & Shinobu";
 }
 /**
 ***/
