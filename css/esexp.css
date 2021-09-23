@@ -290,7 +290,7 @@ Past Stories
   --color:#f3981d;
   --light-mode:hsl(34, 54%, 93%);
   --dark-mode:hsl(34, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/subarupast.png")
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css/img/subarupast.png")
 }
 [character="SubaruPast"]::before {
   content: "Subaru";
