@@ -339,6 +339,16 @@ Past Stories
 [character="Subaru"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/subaru_worried.png");
 }
+
+[character="Jun2"] {
+  --color: #192f60;
+  --light-mode: hsl(221.4, 54%, 93%);
+  --dark-mode: hsl(221.4, 12%, 25%);
+  --icon: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/jun2.png");
+}
+[character="Jun2"]::before {
+  content: "Jun";
+}
 /**
 ***/
 
