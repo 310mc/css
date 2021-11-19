@@ -244,27 +244,6 @@ Past Stories
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiakipast_bcg.png");
 }
 
-[character=KanataPast]{
-  --color:#008db7;
-  --light-mode:hsl(194, 54%, 93%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/kanatapast.png")
-}
-[character="KanataPast"]::before {
-  content: "Kanata";
-}
-[character="KanataPast"][confused] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/kanatapast_confused.png");
-}
-[character="KanataPast"][frown] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/kanatapast_frown.png");
-}
-[character="KanataPast"][smile] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/kanatapast_smile.png");
-}
-[character="KanataPast"][cg] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/kanatapast_cg.png");
-}
-
 [character=KuroPast]{
   --color:#e83929;
   --light-mode:hsl(5, 54%, 93%);
@@ -341,6 +320,18 @@ Past Stories
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/soumapast_angry.png");
 }
 
+[character=MadaraPast]{
+  --color:#622d18;
+  --light-mode:hsl(17, 54%, 93%);
+  --dark-mode:hsl(17, 12%, 25%);
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madarapast_bcg.png")
+}
+[character="MadaraPast"]::before {
+  content: "Madara";
+}
+[character="MadaraPast"][bcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madarapast_bcg.png");
+}
 /**
 ***/
 [character="Chiaki"][past] {
@@ -403,19 +394,9 @@ Past Stories
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/kuropast_bcg.png");
 }
 
-[character=MadaraPast]{
-  --color:#622d18;
-  --light-mode:hsl(17, 54%, 93%);
-  --dark-mode:hsl(17, 12%, 25%);
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madarapast_bcg.png")
-}
-[character="MadaraPast"]::before {
-  content: "Madara";
-}
-[character="MadaraPast"][bcg] {
+[character="Madara"][pastbcg] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madarapast_bcg.png");
 }
-
 [character="Souma"][pastcg] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/soumapast_cg.png");
 }
