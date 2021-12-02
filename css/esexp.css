@@ -77,6 +77,9 @@
 [character="Chiaki"][cry] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_cry.png");
 }
+[character="Chiaki"][frown2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_frown2.png");
+}
 /**
 ***/
 
@@ -118,6 +121,9 @@
 }
 [character="Shinobu"][curious] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_curious.png");
+}
+[character="Shinobu"][thinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_thinking.png");
 }
 /**
 ***/
@@ -162,29 +168,6 @@
 }
 [character="TetoraS"]::before {
   content: "Tetora & Shinobu";
-}
-/**
-***/
-
-/** Mao Expressions
-***/
-[character="Mao"][awkward] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_awkward.png");
-}
-[character="Mao"][worried] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_worried.png");
-}
-[character="Mao"][sad] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_sad.png");
-}
-[character="Mao"][frown] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_frown.png");
-}
-[character="Mao"][serious] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_serious.png");
-}
-[character="Mao"][angry] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_angry.png");
 }
 /**
 ***/
@@ -338,6 +321,32 @@ Past Stories
 
 [character="Keito"][v2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/keito.png");
+}
+[character="Keito"][smile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/keito_smile.png");
+}
+
+[character="Mao"][awkward] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_awkward.png");
+}
+[character="Mao"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_worried.png");
+}
+[character="Mao"][sad] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_sad.png");
+}
+[character="Mao"][frown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_frown.png");
+}
+[character="Mao"][serious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_serious.png");
+}
+[character="Mao"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_angry.png");
+}
+
+[character="Mayoi"][v2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mayoi2.png");
 }
 /**
 ***/
