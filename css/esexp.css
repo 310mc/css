@@ -159,11 +159,14 @@
 [character="Midori"][sweat] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_sweat.png");
 }
+[character="Midori"][worried0] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_worried0.png");
+}
 [character="Midori"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_worried.png");
 }
-[character="Midori"][worried0] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_worried0.png");
+[character="Midori"][worried2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_worried2.png");
 }
 [character="Midori"][yare] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_yare.png");
@@ -940,6 +943,9 @@
 }
 [character="Shinobu"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_worried.png");
+}
+[character="Shinobu"][worried2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_worried2.png");
 }
 [character="Shinobu"][yare] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_yare.png");
@@ -2046,6 +2052,9 @@
 [character="Keito"][glare] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/keito_glare.png");
 }
+[character="Keito"][idle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/keito_idle.png");
+}
 [character="Keito"][grin] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/keito_grin.png");
 }
@@ -2157,8 +2166,14 @@
 [character="Souma"][awkward] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/souma_awkward.png");
 }
+[character="Souma"][cryalmost] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/souma_cryalmost.png");
+}
 [character="Souma"][curious] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/souma_curious.png");
+}
+[character="Souma"][fist] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/souma_fist.png");
 }
 [character="Souma"][frown] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/souma_frown.png");
