@@ -1684,6 +1684,9 @@
 [character="Mao"][curious] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_curious.png");
 }
+[character="Mao"][fist] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_grin.png");
+}
 [character="Mao"][frown] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_frown.png");
 }
@@ -1721,6 +1724,9 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_sighfrown.png");
 }
 [character="Mao"][smile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_smile.png");
+}
+[character="Mao"][smileexplain] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_smile.png");
 }
 [character="Mao"][smileconfident] {
@@ -5772,6 +5778,8 @@
 [character="Yume"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/fuyume_worried.png");
 }
+
+
 
 [character="Fuyume"][awkward] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/fuyume_awkward.png");
