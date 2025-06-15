@@ -1445,6 +1445,9 @@
 [character="Hokuto"][frown] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/hokuto_frown.png");
 }
+[character="Hokuto"][frown2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/hokuto_frown.png");
+}
 [character="Hokuto"][glare] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/hokuto_glare.png");
 }
@@ -1738,6 +1741,9 @@
 [character="Mao"][smilesoft2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_smilesoft2.png");
 }
+[character="Mao"][srsthinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_northinking.png");
+}
 [character="Mao"][surprised] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_surprised.png");
 }
@@ -1804,26 +1810,110 @@
 
 /** Tori Expressions
 ***/
+[character="Tori"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_angry.png");
+}
+[character="Tori"][angrycloseup] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_angrycloseup.png");
+}
 [character="Tori"][awkward] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_awkward.png");
+}
+[character="Tori"][blushfrustrated] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushfrustrated.png");
 }
 [character="Tori"][blushjoy] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushjoy.png");
 }
+[character="Tori"][blushscratch] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushscratch.png");
+}
+[character="Tori"][blushshocked] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushshocked.png");
+}
+[character="Tori"][blushshy] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushshy.png");
+}
+[character="Tori"][blushshysmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushshysmile.png");
+}
+[character="Tori"][blushsquint] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushsquint.png");
+}
+[character="Tori"][blushsurprised] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushsurprised.png");
+}
+[character="Tori"][blushwidesmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_blushwidesmile.png");
+}
+[character="Tori"][cry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_cry.png");
+}
+[character="Tori"][cryalmost] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_cryalmost.png");
+}
 [character="Tori"][curious] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_curious.png");
+}
+[character="Tori"][fist] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_fist.png");
 }
 [character="Tori"][frown] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_frown.png");
 }
+[character="Tori"][frown2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_frown2.png");
+}
 [character="Tori"][frownshake] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_frownshake.png");
+}
+[character="Tori"][frustrated] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_frustrated.png");
 }
 [character="Tori"][glare] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_glare.png");
 }
+[character="Tori"][grin] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_grin.png");
+}
+[character="Tori"][grinsoft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_grinsoft.png");
+}
+[character="Tori"][hmphleft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_hmphleft.png");
+}
+[character="Tori"][hmphright] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_hmphright.png");
+}
+[character="Tori"][horrified] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_horrified.png");
+}
+[character="Tori"][idle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_idle.png");
+}
+[character="Tori"][niya] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_niya.png");
+}
+[character="Tori"][niyaclosed] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_niyaclosed.png");
+}
+[character="Tori"][nod] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_nod.png");
+}
+[character="Tori"][nod2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_nod2.png");
+}
 [character="Tori"][norsmile] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_norsmile.png");
+}
+[character="Tori"][norsmile2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_norsmile2.png");
+}
+[character="Tori"][norsmile3] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_norsmile3.png");
+}
+[character="Tori"][northinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_northinking.png");
 }
 [character="Tori"][sad] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sad.png");
@@ -1852,23 +1942,71 @@
 [character="Tori"][sigh] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sigh.png");
 }
+[character="Tori"][sighdrop] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sighdrop.png");
+}
+[character="Tori"][sighfrown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sighfrown.png");
+}
 [character="Tori"][sightired] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sightired.png");
+}
+[character="Tori"][sleep] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sleep.png");
+}
+[character="Tori"][sleepsmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sleepsmile.png");
 }
 [character="Tori"][smile] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_smile.png");
 }
+[character="Tori"][smileconfident] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_smileconfident.png");
+}
+[character="Tori"][smileexplain] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_smileexplain.png");
+}
 [character="Tori"][smilesoft] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_smilesoft.png");
+}
+[character="Tori"][smilesoft2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_smilesoft2.png");
+}
+[character="Tori"][smug] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_smug.png");
+}
+[character="Tori"][snicker] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_snicker.png");
+}
+[character="Tori"][snickerfist] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_snickerfist.png");
+}
+[character="Tori"][sob] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sob.png");
+}
+[character="Tori"][sobangle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_sobangle.png");
+}
+[character="Tori"][srsthinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_srsthinking.png");
 }
 [character="Tori"][surprised] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_surprised.png");
 }
+[character="Tori"][takenaback] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_takenaback.png");
+}
 [character="Tori"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_worried.png");
 }
+[character="Tori"][worried2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_worried2.png");
+}
 [character="Tori"][yare] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_yare.png");
+}
+[character="Tori"][yawn] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tori_yawn.png");
 }
 /**
 ***/
@@ -3358,6 +3496,203 @@
 ***/
 [character="Tsumugi"][mgn] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsumugi_mgn.png");
+}
+/**
+***/
+
+/** Sora Expressions
+***/
+[character="Sora"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_angry.png");
+}
+[character="Sora"][angrycloseup] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_angrycloseup.png");
+}
+[character="Sora"][awkward] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_awkward.png");
+}
+[character="Sora"][blushfrustrated] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushfrustrated.png");
+}
+[character="Sora"][blushjoy] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushjoy.png");
+}
+[character="Sora"][blushscratch] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushscratch.png");
+}
+[character="Sora"][blushshocked] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushshocked.png");
+}
+[character="Sora"][blushshy] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushshy.png");
+}
+[character="Sora"][blushshysmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushshysmile.png");
+}
+[character="Sora"][blushsquint] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushsquint.png");
+}
+[character="Sora"][blushsurprised] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushsurprised.png");
+}
+[character="Sora"][blushwidesmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_blushwidesmile.png");
+}
+[character="Sora"][cry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_cry.png");
+}
+[character="Sora"][cryalmost] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_cryalmost.png");
+}
+[character="Sora"][curious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_curious.png");
+}
+[character="Sora"][fist] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_fist.png");
+}
+[character="Sora"][frown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_frown.png");
+}
+[character="Sora"][frown2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_frown2.png");
+}
+[character="Sora"][frownshake] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_frownshake.png");
+}
+[character="Sora"][frustrated] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_frustrated.png");
+}
+[character="Sora"][glare] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_glare.png");
+}
+[character="Sora"][grin] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_grin.png");
+}
+[character="Sora"][grinsoft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_grinsoft.png");
+}
+[character="Sora"][hmphleft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_hmphleft.png");
+}
+[character="Sora"][hmphright] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_hmphright.png");
+}
+[character="Sora"][horrified] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_horrified.png");
+}
+[character="Sora"][idle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_idle.png");
+}
+[character="Sora"][niya] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_niya.png");
+}
+[character="Sora"][niyaclosed] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_niyaclosed.png");
+}
+[character="Sora"][nod] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_nod.png");
+}
+[character="Sora"][nod2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_nod2.png");
+}
+[character="Sora"][norsmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_norsmile.png");
+}
+[character="Sora"][norsmile2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_norsmile2.png");
+}
+[character="Sora"][norsmile3] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_norsmile3.png");
+}
+[character="Sora"][northinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_northinking.png");
+}
+[character="Sora"][sad] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sad.png");
+}
+[character="Sora"][sad2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sad2.png");
+}
+[character="Sora"][sad3] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sad3.png");
+}
+[character="Sora"][sad4] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sad4.png");
+}
+[character="Sora"][scold] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_scold.png");
+}
+[character="Sora"][serious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_serious.png");
+}
+[character="Sora"][shocked] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_shocked.png");
+}
+[character="Sora"][sideeye] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sideeye.png");
+}
+[character="Sora"][sigh] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sigh.png");
+}
+[character="Sora"][sighdrop] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sighdrop.png");
+}
+[character="Sora"][sighfrown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sighfrown.png");
+}
+[character="Sora"][sightired] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sightired.png");
+}
+[character="Sora"][sleep] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sleep.png");
+}
+[character="Sora"][sleepsmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sleepsmile.png");
+}
+[character="Sora"][smile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_smile.png");
+}
+[character="Sora"][smileconfident] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_smileconfident.png");
+}
+[character="Sora"][smileexplain] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_smileexplain.png");
+}
+[character="Sora"][smilesoft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_smilesoft.png");
+}
+[character="Sora"][smilesoft2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_smilesoft2.png");
+}
+[character="Sora"][smug] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_smug.png");
+}
+[character="Sora"][snicker] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_snicker.png");
+}
+[character="Sora"][sob] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sob.png");
+}
+[character="Sora"][sobangle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_sobangle.png");
+}
+[character="Sora"][srsthinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_srsthinking.png");
+}
+[character="Sora"][surprised] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_surprised.png");
+}
+[character="Sora"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_worried.png");
+}
+[character="Sora"][worried2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_worried2.png");
+}
+[character="Sora"][yare] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_yare.png");
+}
+[character="Sora"][yawn] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/sora_yawn.png");
 }
 /**
 ***/
