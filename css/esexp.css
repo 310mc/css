@@ -1679,7 +1679,7 @@
 
 /** Mao Expressions
 ***/
-[character="Mao"][angry] {
+  [character="Mao"][angry] {
     --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_angry.png");
   }
   [character="Mao"][angrycloseup] {
@@ -6952,14 +6952,29 @@
 
 /** Nice Expressions
 ***/
+[character="Nice"][grin] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_nod.png");
+}
+[character="Nice"][grinsoft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_nod.png");
+}
+[character="Nice"][idle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_serious.png");
+}
 [character="Nice"][nod] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_nod.png");
 }
 [character="Nice"][norsmile] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_norsmile.png");
 }
+[character="Nice"][norsmile2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_norsmile.png");
+}
 [character="Nice"][northinking] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_northinking.png");
+}
+[character="Nice"][serious] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_serious.png");
 }
 [character="Nice"][sad4] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nice_sad4.png");
@@ -7119,6 +7134,9 @@
   --hue: 331.3;
   --name: "Mao & Chiaki";
   --icon: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_maochiaki.png");
+}
+[character="MaoChiaki"][surprised] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_maochiakisurprised.png");
 }
 
 [character=JunChiaki]{
