@@ -1,81 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width">
 
 <style>
+* {box-sizing: border-box;}
+
 body {
-background-color: #89AEB2;
+	background-color: #89AEB2;
+	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .grid {
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	width: 60vw;
-	height: 70vh;
-	padding: 1rem;
+	width: 70vw;
+	height: 100%;
 	border-radius: 10px;
 	background: #ffffff;
 }
 
 .left-side {
-	flex-grow: 3;
+	flex-grow: 2;
 	margin-right: 1rem;
+	padding: 3rem;
+	letter-spacing: 0.05rem;
+	color: #66656B;
+	height: calc(100% - 20px);
 }
-
-figure {
-	margin: 0;
-	}
 
 .title {
-	margin: 0.5rem;
 	font-size: 2rem;
 	font-weight: 700;
+	margin-bottom: 0.5rem;
 }
 
-.right-side {
-	flex-shrink: 1;
-	display: flex;
-	margin-left: 1rem;
-	/*width: 500rem;*/
-	width: 2300px;
-}
-
-.right-side a div {
-	height: 70vh;
-	padding: 0.2rem;
-}
-
-.right-side img, .top-side img {
-	border-radius: 10px;
-	transition: .4s;
-	display: block;
-	object-fit: cover;
-	max-width: 100%;
-    max-height: 100%;
-}
-
-.right-side img:hover, .top-side img:hover {
-	filter: brightness(55%);
-	transition: .4s;
+.description {
+	margin-block: 1rem;
 }
 
 .left-side a {
 	background-color: #1894A1;
 	color: #FFFFFF; 
-	display: inline-flex;
-    width: auto;
-    height: 3.75rem;
-    line-height: 3.75rem;
-    padding: 0 1.875rem;
-    vertical-align: middle;
-    font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	margin-block: 10px;
+	display: block;
+    width: 200px;
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0rem 1rem;
     letter-spacing: 0.05rem;
-    padding-left: calc(0.05rem + 1.875rem);
+	text-align: center;
     font-size: 1em;
-    font-weight: 400;
-    border-radius: 0.5rem;
-    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all .4s;
+}
+.left-side a:hover {
+	background-color: #116b75;
+    transition: all .4s;
+	transform: scale(1.08);
+}
+
+figure {
+	margin: 0;
+}
+
+.right-side {
+	flex-shrink: 1;
+	display: flex;
+	width: 3000px;
+}
+
+.right-side a div {
+	height: 84vh;
+    width: 100%;
+    padding: 0.2rem;
+}
+
+.right-side img, .top-side img {
+	transition: all .4s;
+	object-fit: cover;
+	height: 100%;
+    width: 100%;
+}
+
+.right-side img:hover, .top-side img:hover {
+	filter: brightness(55%);
+	transition: all .4s;
+}
+
+.featureidol-img {
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
 }
 
 .top-side {
@@ -85,23 +103,43 @@ figure {
 @media only screen and (max-width:900px) {
 	.grid {
 		display: block;
+		height: 900px;
+		width: 100%;
 	}
+
+	.left-side {
+		height: 55%;
+	}
+
 	.right-side {
-	display: none;
+		display: block;
+		width: 100%;
+		height: 200px;
+	}
+	.right-side a div {
+		height: 100%;
+		width: 100%;
+	}
+	.right-side img {
+		object-position: 0 -50px;
+	}
+	.featureidol-img {
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
 	}
  
 	.top-side {
-	display: block;
+		display: block;
 	}
 	
 	.top-side img {
-	max-height: 35rem;
-	height: 100% !important;
-    object-fit: cover;
-    object-position: top;
-    width: 100% !important;
-    border-radius: 10px;
-    padding: 0.25rem;
+		max-height: 10rem;
+		height: 100% !important;
+		object-fit: cover;
+		object-position: top;
+		width: 100% !important;
+		border-radius: 10px;
+		padding: 0.25rem;
 	}
 }
 </style>
@@ -110,21 +148,18 @@ figure {
 
 <body>
 <section class="grid">
-	<div class="top-side">
+	<!--<div class="top-side">
 	<div><a href="eventscout"><img src="https://esmlmock.carrd.co/assets/images/image03.jpg"></a></div>
-	</div>
+	</div>-->
 	<div class="left-side">
 		<div class="title">Ensemble Stars Masterlist</div>
 		<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia pulvinar ex, non lacinia erat placerat vitae. Nam in felis mi. Nulla sit amet fermentum justo. Vivamus molestie ultrices lorem, vel aliquam ligula egestas at. Quisque vitae finibus est. Duis eu mi gravida, rutrum purus vel, ornare urna. Curabitur nunc massa, auctor non eros sit amet, sodales euismod augue.</div>
 		<a href="/">About the Masterlist</a>
-		<a href="/">About the Contact</a>
+		<a href="/">Contact</a>
 	</div>
 	<div class="right-side">
 		<a href="eventscout"><div><img src="https://esmlmock.carrd.co/assets/images/image03.jpg"></div></a>
-		<a href="featureidol"><div><img src="https://esmlmock.carrd.co/assets/images/image01.jpg"></div></a>
-	</div>
-	<div class="top-side">
-		<a href="featureidol"><div><img src="https://esmlmock.carrd.co/assets/images/image01.jpg"></div></a>
+		<a href="featureidol"><div><img src="https://esmlmock.carrd.co/assets/images/image01.jpg" class="featureidol-img"></div></a>
 	</div>
 </section>
 </body>
