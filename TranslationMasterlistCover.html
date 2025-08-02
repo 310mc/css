@@ -40,6 +40,11 @@ body {
 	margin-block: 1rem;
 }
 
+.btn-links {
+	display: flex;
+	gap: 10px;
+}
+
 .left-side a {
 	background-color: #1894A1;
 	color: #FFFFFF; 
@@ -73,27 +78,51 @@ figure {
 	width: 3000px;
 }
 
-.right-side a div {
-	height: 84vh;
-    width: 100%;
-    padding: 0.2rem;
+.right-side .textimage-container {
+	position: relative;
+	margin: 0.2rem;
 }
 
-.right-side img, .top-side img {
+.text-gradient {
+	background: linear-gradient(to top, rgba(0, 0, 0, .8), 60%, rgba(0, 0, 0, 0));
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding-top: 100px;
+}
+
+.text-grid {
+	position: absolute;
+	bottom: 15px;
+	left: 16px;
+	font-size: 1.1rem;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.image-frame {
+	height: 84vh;
+    width: 100%;
+}
+
+.image-frame img, .top-side img {
 	transition: all .4s;
 	object-fit: cover;
 	height: 100%;
     width: 100%;
 }
 
-.right-side img:hover, .top-side img:hover {
+.right-side a {
+	transition: all .4s;
+}
+.right-side a:hover img {
 	filter: brightness(55%);
 	transition: all .4s;
 }
 
-.featureidol-img {
-	border-top-right-radius:10px;
-	border-bottom-right-radius:10px;
+.featureidol-img img,.featureidol-img .text-gradient {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .top-side {
@@ -108,7 +137,10 @@ figure {
 	}
 
 	.left-side {
-		height: 55%;
+		height: 45%;
+	}
+	.left-side a {
+		padding: 0;
 	}
 
 	.right-side {
@@ -116,19 +148,25 @@ figure {
 		width: 100%;
 		height: 200px;
 	}
-	.right-side a div {
-		height: 100%;
+	.image-frame {
 		width: 100%;
+		height: 250px;
 	}
-	.right-side img {
+	.image-frame img {
 		object-position: 0 -50px;
 	}
-	.featureidol-img {
+	
+	.featureidol-img img,.featureidol-img .text-gradient {
+		border-top-right-radius: 0;
 		border-bottom-left-radius:10px;
 		border-bottom-right-radius:10px;
 	}
- 
-	.top-side {
+
+	.btn-links {
+		font-size: 0.9rem;
+	}
+	
+/*	.top-side {
 		display: block;
 	}
 	
@@ -141,6 +179,7 @@ figure {
 		border-radius: 10px;
 		padding: 0.25rem;
 	}
+		*/
 }
 </style>
 
@@ -154,12 +193,36 @@ figure {
 	<div class="left-side">
 		<div class="title">Ensemble Stars Masterlist</div>
 		<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia pulvinar ex, non lacinia erat placerat vitae. Nam in felis mi. Nulla sit amet fermentum justo. Vivamus molestie ultrices lorem, vel aliquam ligula egestas at. Quisque vitae finibus est. Duis eu mi gravida, rutrum purus vel, ornare urna. Curabitur nunc massa, auctor non eros sit amet, sodales euismod augue.</div>
-		<a href="/">About the Masterlist</a>
-		<a href="/">Contact</a>
+		<div class="btn-links">
+			<a href="/">About the Masterlist</a>
+			<a href="/">Contact</a>
+		</div>
 	</div>
 	<div class="right-side">
-		<a href="eventscout"><div><img src="https://esmlmock.carrd.co/assets/images/image03.jpg"></div></a>
-		<a href="featureidol"><div><img src="https://esmlmock.carrd.co/assets/images/image01.jpg" class="featureidol-img"></div></a>
+		<a href="eventscout">
+			<div class="textimage-container">
+				<div class="image-frame">
+					<img src="https://esmlmock.carrd.co/assets/images/image03.jpg">
+				</div>
+				<div class="text-gradient">
+					<div class="text-grid">
+						Event & Scout Translations
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="featureidol" class="featureidol-img">
+			<div class="textimage-container">
+				<div class="image-frame">
+					<img src="https://esmlmock.carrd.co/assets/images/image01.jpg">
+				</div>
+				<div class="text-gradient">
+					<div class="text-grid">
+						Feature & Idol Translations
+					</div>
+				</div>
+			</div>
+		</a>
 	</div>
 </section>
 </body>
