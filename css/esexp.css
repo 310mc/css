@@ -282,6 +282,9 @@
 [character="Chiaki"][grin2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_grin2.png");
 }
+[character="Chiaki"][grinlaugh] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_grinlaugh.png");
+}
 [character="Chiaki"][grinsoft] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_nod2.png");
 }
@@ -332,6 +335,9 @@
 }
 [character="Chiaki"][sad4] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_sad4.png");
+}
+[character="Chiaki"][scared] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_scared.png");
 }
 [character="Chiaki"][scold] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_scold.png");
@@ -460,7 +466,9 @@
 [character="Chiaki"][grmtbcg] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_grmtbcg.png");
 }
-
+[character="Chiaki"][ambcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiaki_ambcg.png");
+}
 
 [character="Chiaki"][mgn] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chiakimgn.png");
@@ -6794,6 +6802,11 @@
 [character="HiMERU"][yawn] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/himeru_yawn.png");
 }
+
+
+[character="HiMERU"][ambcg] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/himeru_ambcg.png");
+}
 /**
 ***/
 
@@ -6909,9 +6922,9 @@
 
 /** Yuta Expressions
 ***/
-[character="Yuta"] {
+/*[character="Yuta"] {
   --name: "Yuuta";
-}
+}*/
 [character="Yuta"][angry] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/yuta_angry.png");
 }
@@ -8123,6 +8136,9 @@
 [character="Raika"][norsmile2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/raika_norsmile2.png");
 }
+[character="Raika"][norsmile3] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/raika_norsmile3.png");
+}
 [character="Raika"][northinking] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/raika_northinking.png");
 }
@@ -8415,6 +8431,16 @@
 }
 [character="MaoChiaki"][surprised] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_maochiakisurprised.png");
+}
+
+[character=HiMERUChiaki]{
+  --color: #e60033;
+  --hue: 346.7;
+  --name: "Chiaki & HiMERU";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_himeruchiaki.png")
+}
+[character="HiMERUChiaki"][surprised] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_himeruchiakisurprised.png");
 }
 
 [character=JunChiaki]{
