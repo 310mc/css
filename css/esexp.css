@@ -900,6 +900,9 @@
 [character="Shinobu"][grin] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_grin.png");
 }
+[character="Shinobu"][grinlaugh] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_grin.png");
+}
 [character="Shinobu"][grinsoft] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_nod2.png");
 }
@@ -1004,6 +1007,9 @@
 }
 [character="Shinobu"][sobangle] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_sobangle.png");
+}
+[character="Shinobu"][sobangleup] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_sobangleup.png");
 }
 [character="Shinobu"][srsthinking] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_srsthinking.png");
@@ -1829,7 +1835,7 @@
     --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_sigh.png");
   }
   [character="Mao"][sighdrop] {
-    --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_sighdrop.png");
+    --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_sigh.png");
   }
   [character="Mao"][sighfrown] {
     --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/mao_sighfrown.png");
@@ -4272,17 +4278,122 @@
 
 /** Tsukasa Expressions
 ***/
+[character="Tsukasa"][angry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_angry.png");
+}
+[character="Tsukasa"][angrycloseup] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_angrycloseup.png");
+}
 [character="Tsukasa"][awkward] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_awkward.png");
+}
+[character="Tsukasa"][blushfrustrated] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushfrustrated.png");
+}
+[character="Tsukasa"][blushjoy] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushjoy.png");
+}
+[character="Tsukasa"][blushscratch] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushscratch.png");
+}
+[character="Tsukasa"][blushshocked] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushshocked.png");
+}
+[character="Tsukasa"][blushshy] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushshy.png");
+}
+[character="Tsukasa"][blushshysmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushshysmile.png");
+}
+[character="Tsukasa"][blushsquint] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushsquint.png");
+}
+[character="Tsukasa"][blushsurprised] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushsurprised.png");
+}
+[character="Tsukasa"][blushwidesmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_blushwidesmile.png");
+}
+[character="Tsukasa"][cry] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_cry.png");
+}
+[character="Tsukasa"][cryalmost] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_cryalmost.png");
 }
 [character="Tsukasa"][curious] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_curious.png");
 }
+[character="Tsukasa"][fist] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_fist.png");
+}
+[character="Tsukasa"][frown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_frown.png");
+}
+[character="Tsukasa"][frown2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_frown2.png");
+}
+[character="Tsukasa"][frownshake] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_frownshake.png");
+}
+[character="Tsukasa"][frustrated] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_frustrated.png");
+}
+[character="Tsukasa"][glare] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_glare.png");
+}
 [character="Tsukasa"][grin] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_grin.png");
 }
+[character="Tsukasa"][grinsoft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_grinsoft.png");
+}
+[character="Tsukasa"][hmphleft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_hmphleft.png");
+}
+[character="Tsukasa"][hmphright] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_hmphright.png");
+}
+[character="Tsukasa"][horrified] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_horrified.png");
+}
+[character="Tsukasa"][idle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_idle.png");
+}
+[character="Tsukasa"][niya] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_niya.png");
+}
+[character="Tsukasa"][niyaclosed] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_niyaclosed.png");
+}
+[character="Tsukasa"][nod] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_nod.png");
+}
+[character="Tsukasa"][nod2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_nod2.png");
+}
 [character="Tsukasa"][norsmile] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_norsmile.png");
+}
+[character="Tsukasa"][norsmile2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_norsmile.png");
+}
+[character="Tsukasa"][norsmile3] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_norsmile3.png");
+}
+[character="Tsukasa"][northinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_northinking.png");
+}
+[character="Tsukasa"][sad] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sad.png");
+}
+[character="Tsukasa"][sad2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sad2.png");
+}
+[character="Tsukasa"][sad3] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sad3.png");
+}
+[character="Tsukasa"][sad4] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sad4.png");
 }
 [character="Tsukasa"][scold] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_scold.png");
@@ -4290,17 +4401,80 @@
 [character="Tsukasa"][serious] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_serious.png");
 }
+[character="Tsukasa"][shocked] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_shocked.png");
+}
+[character="Tsukasa"][sideeye] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sideeye.png");
+}
+[character="Tsukasa"][sigh] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sigh.png");
+}
+[character="Tsukasa"][sighdrop] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sighdrop.png");
+}
+[character="Tsukasa"][sighfrown] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sighfrown.png");
+}
+[character="Tsukasa"][sightired] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sightired.png");
+}
+[character="Tsukasa"][sleep] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sleep.png");
+}
+[character="Tsukasa"][sleepsmile] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sleepsmile.png");
+}
 [character="Tsukasa"][smile] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_smile.png");
+}
+[character="Tsukasa"][smileconfident] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_smileconfident.png");
+}
+[character="Tsukasa"][smileexplain] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_smileexplain.png");
+}
+[character="Tsukasa"][smilesoft] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_smilesoft.png");
 }
 [character="Tsukasa"][smilesoft2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_smilesoft2.png");
 }
+[character="Tsukasa"][smug] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_smug.png");
+}
+[character="Tsukasa"][snicker] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_snicker.png");
+}
+[character="Tsukasa"][snickerfist] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_snickerfist.png");
+}
+[character="Tsukasa"][sob] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sob.png");
+}
+[character="Tsukasa"][sobangle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_sobangle.png");
+}
+[character="Tsukasa"][srsthinking] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_srsthinking.png");
+}
 [character="Tsukasa"][surprised] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_surprised.png");
 }
+[character="Tsukasa"][takenaback] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_takenaback.png");
+}
+[character="Tsukasa"][worried] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_worried.png");
+}
+[character="Tsukasa"][worried2] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_worried2.png");
+}
 [character="Tsukasa"][yare] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_yare.png");
+}
+[character="Tsukasa"][yawn] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tsukasa_yawn.png");
 }
 /**
 ***/
@@ -7378,7 +7552,6 @@
   --charahead: url("https://cdn.jsdelivr.net/gh/enstars/img/charahead/fuyume.png")
 }
 
-
 [character="Yume"][angry] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/fuyume_angry.png");
 }
@@ -8137,7 +8310,7 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/raika_norsmile2.png");
 }
 [character="Raika"][norsmile3] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/raika_norsmile3.png");
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/raika_norsmile.png");
 }
 [character="Raika"][northinking] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/raika_northinking.png");
