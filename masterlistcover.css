@@ -61,6 +61,8 @@ body {
 .left-side a:hover {
 	background-color: #116b75;
     transition: all .4s;
+}
+.left-side a:active {
 	transform: scale(1.08);
 }
 
@@ -169,7 +171,6 @@ body {
 		/*grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));*/
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
-
 	.storyName span {
 		font-size: 0.7em;
 	}
