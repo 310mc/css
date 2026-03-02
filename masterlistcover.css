@@ -1,0 +1,171 @@
+* {box-sizing: border-box;}
+
+body {
+	background-color: #89AEB2;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.grid-main, .grid-about {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 70vw;
+	height: 80vh;
+	border-radius: 10px;
+	background: #ffffff;
+	transition: ease-in-out 0.4s;
+	padding: 5px;
+}
+
+.tabcontent {
+	display: none;
+}
+
+.left-side {
+	padding: 3rem;
+	letter-spacing: 0.05rem;
+	color: #66656B;
+	height: calc(100% - 20px);
+}
+.title {
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+.description {
+	margin-block: 1rem;
+}
+.btn-links {
+	display: flex;
+	gap: 10px;
+}
+
+.left-side a {
+	background-color: #1894A1;
+	color: #FFFFFF; 
+	text-decoration: none;
+	margin-block: 10px;
+	display: block;
+    width: 200px;
+    height: 4rem;
+	cursor: pointer;
+    line-height: 4rem;
+    padding: 0rem 1rem;
+    letter-spacing: 0.05rem;
+	text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all .4s;
+}
+.left-side a:hover {
+	background-color: #116b75;
+    transition: all .4s;
+	transform: scale(1.08);
+}
+
+.right-side, .right-side-page2 {
+	height: 100%;
+	width: 3000px;
+}
+
+.image-frame {
+    width: 100%;
+	height: 100%;
+}
+.image-frame img {
+	transition: all .4s;
+	object-fit: cover;
+	height: 100%;
+    width: 100%;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width:1200px) {
+	.grid-main, .grid-about {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
+	.left-side {
+		padding: 1.5rem;
+        padding-bottom: 0.8rem;
+	}
+	.left-side a {
+		padding: 0;
+	}
+
+	.right-side {
+		width: 100%;
+		height: 200px;
+	}
+	.right-side-page2 {
+		display: none;
+	}
+
+	.btn-links {
+		font-size: 0.9rem;
+	}
+}
+
+/** Kyuu's Code **/
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.5em;
+}
+.stories a:hover{
+    color: white;
+}
+.stories a:visited {
+    color: white;
+}
+.stories a:link {
+    color: white;
+}
+.stories  a:active {
+    color: white;
+}
+
+.story {
+    position: relative;
+    border-radius: 0.25em;
+    overflow: hidden;
+}
+.story:hover img {
+	filter: brightness(75%);
+    transform: scale(1.05);
+}
+
+.thumbimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s ease;
+    margin: 0 !important;
+}
+
+.storyName span {
+    font-size: 0.9em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(to bottom, transparent 0, #000000a3 90%);
+    color: #fff;
+    position: absolute;
+    padding: 5em 0.75em 0.75em;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s ease;
+    border-width: 0;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.stories {
+		grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	}
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="/masterlistcover.css">
+	<script>
+	function openBox(evt, storyHeader) {
+	var i, tabcontent;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+	document.getElementById(storyHeader).style.display = "block";
+	}
+	</script>
+</head>
+
+<body>
+<div id="homepage-id" class="tabcontent" style="display:block !important;">
+	<div class="grid-main">
+		<div class="left-side">
+			<div class="title">Ensemble Stars Masterlist</div>
+			<div class="description">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia pulvinar ex, non lacinia erat placerat vitae. Nam in felis mi. Nulla sit amet fermentum justo. Vivamus molestie ultrices lorem, vel aliquam ligula egestas at. Quisque vitae finibus est. Duis eu mi gravida, rutrum purus vel, ornare urna. Curabitur nunc massa, auctor non eros sit amet, sodales euismod augue.
+			</div>
+			<div class="btn-links">
+				<a onclick="openBox(event, 'aboutpage-id')">About the Masterlist</a>
+				<a href="/">Contact</a>
+			</div>
+		</div>
+		<div class="right-side stories">
+			<div class="story">
+				<a href="/scoutevent" class="storyName" target="_blank">
+				<div class="thumbimage">
+					<img
+						src="https://esmlmock.carrd.co/assets/images/image03.jpg"
+						alt="Event & Scout Translations"
+					/>
+				</div>
+				<span>Event & Scout Translations</span>
+				</a>
+			</div>
+			<div class="story">
+				<a href="/featureidol" class="storyName" target="_blank">
+				<div class="thumbimage">
+					<img
+						src="https://esmlmock.carrd.co/assets/images/image01.jpg"
+						alt="Feature & Idol Translations"
+					/>
+				</div>
+				<span>Feature & Idol Translations</span>
+				</a>
+			</div>
+			<div class="story">
+				<a href="/misc" class="storyName" target="_blank">
+				<div class="thumbimage">
+					<img
+						src="https://esmlmock.carrd.co/assets/images/image03.jpg"
+						alt="Misc. Translations"
+					/>
+				</div>
+				<span>Misc. Translations</span>
+				</a>
+			</div>
+			<div class="story">
+				<a href="/song" class="storyName" target="_blank">
+				<div class="thumbimage">
+					<img
+						src="https://esmlmock.carrd.co/assets/images/image01.jpg"
+						alt="Songs Translations"
+					/>
+				</div>
+				<span>Songs Translations</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="aboutpage-id" class="tabcontent">
+	<div class="grid-about">
+		<div class="left-side">
+			<div class="title">About the Masterlist</div>
+			<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia pulvinar ex, non lacinia erat placerat vitae. Nam in felis mi. Nulla sit amet fermentum justo. Vivamus molestie ultrices lorem, vel aliquam ligula egestas at. Quisque vitae finibus est. Duis eu mi gravida, rutrum purus vel, ornare urna. Curabitur nunc massa, auctor non eros sit amet, sodales euismod augue.</div>
+			<div class="btn-links">
+				<a onclick="openBox(event, 'homepage-id')">Home</a>
+				<a href="/">Contact</a>
+			</div>
+		</div>
+		<div class="right-side-page2">
+			<div class="image-frame">
+				<img src="https://esmlmock.carrd.co/assets/images/image02.png?v=f2e408e4">
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
