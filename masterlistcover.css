@@ -169,12 +169,19 @@ body {
 	text-decoration: none;
 }
 
+.story.no-link-atm:hover img {
+	filter: none;
+}
+
 @media only screen and (max-width: 600px) {
 	.stories {
 		/*grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));*/
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 	.storyName span {
 		font-size: 0.7em;
+	}
+	.no-link-atm {
+		display: none;
 	}
 }
