@@ -159,6 +159,12 @@
 [character="Midori"][sob] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_sob.png");
 }
+[character="Midori"][sobangle] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_sobangle.png");
+}
+[character="Midori"][sobangleup] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_sobangleup.png");
+}
 [character="Midori"][srsthinking] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori_srsthinking.png");
 }
@@ -190,9 +196,6 @@
 
 [character="Midori"][v2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori2.png");
-}
-[character="Midori"][v3] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/midori3.png");
 }
 
 
@@ -1284,6 +1287,9 @@
 }
 [character="Tetora"][hmphleft] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tetora_hmphleft.png");
+}
+[character="Tetora"][hmphright] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tetora_hmphright.png");
 }
 [character="Tetora"][horrified] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/tetora_horrified.png");
@@ -3987,7 +3993,7 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/adonis_sad3.png");
 }
 [character="Adonis"][sad4] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/adonis_sad4.png");
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/adonis_sad2.png");/**recycle**/
 }
 [character="Adonis"][scold] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/adonis_scold.png");
@@ -7016,6 +7022,9 @@
 [character="Ritsu"][surprised] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/ritsu_surprised.png");
 }
+[character="Ritsu"][takenaback] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/ritsu_takenaback.png");
+}
 [character="Ritsu"][worried] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/ritsu_worried.png");
 }
@@ -9182,7 +9191,7 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madara_horrified.png");
 }
 [character="Madara"][idle] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madara_idle.png");
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madara_serious.png");/**recycle**/
 }
 [character="Madara"][niya] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/madara_niya.png");
@@ -9479,7 +9488,7 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/rinne_niyaclosed.png");
 }
 [character="Rinne"][nod] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/rinne_nod.png");
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/rinne_grin.png");/**recycle**/
 }
 [character="Rinne"][norsmile] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/rinne_norsmile.png");
