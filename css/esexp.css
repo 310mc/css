@@ -11997,21 +11997,21 @@
 
 /** MELLOW DEAR US MDU 
 ***/
-[character=Juis] {
+/*[character=Juis] {
   --color: #52CC53;
   --hue: 120;
   --name: "Juis";
   --icon: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/juis.png");
   --charahead: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/juis_charahead.png");
-}
+}*/
 [character=Nozomi] {
   --color: #981558;
-  --hue: 329;
+  --hue: 329.3129770992deg;
   --name: "Nozomi";
-  --icon: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nozomi.png");
-  --charahead: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nozomi_charahead.png");
+  --icon: url("https://cdn.jsdelivr.net/gh/enstars/img/icon/nozomi.png");
+  --charahead: url("https://cdn.jsdelivr.net/gh/enstars/img/charahead/nozomi.png")
 }
-[character=Mashu] {
+/*[character=Mashu] {
   --color: #F37A89;
   --hue: 353;
   --name: "Mashu";
@@ -12024,7 +12024,7 @@
   --name: "Chitose";
   --icon: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chitose.png");
   --charahead: url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/chitose_charahead.png");
-}
+}*/
 
 [character="Juis"][v2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/juis_2.png");
@@ -12300,7 +12300,6 @@
 /**
 ***/
 
-
 /** Seiya Expressions
 ***/
 [character="Seiya"][smile] {
@@ -12519,7 +12518,6 @@
 /**
 ***/
 
-
 /** Misc. / Pairs / Duo / Doubles
 ***/
 [character="Tetora"][shinobu] {
@@ -12533,6 +12531,19 @@
 [character="Tetora"][chiaki] {
   --name: "Tetora & Chiaki";
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_tetorachiaki.png")
+}
+
+[character="Midori"][tetorasurprisedc] {
+  --name: "Midori & Tetora";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_midoritetorasurprisedc.png")
+}
+[character="Midori"][shinobu] {
+  --name: "Midori & Shinobu";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_midorishinobu.png")
+}
+[character="Midori"][jun] {
+  --name: "Midori & Jun";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_midorijun.png")
 }
 
 [character="Shinobu"][chiakisurprised] {
@@ -12552,23 +12563,21 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_shinobutomoyacurious.png")
 }
 
-
-[character="Midori"][tetorasurprisedc] {
-  --name: "Midori & Tetora";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_midoritetorasurprisedc.png")
-}
-[character="Midori"][shinobu] {
-  --name: "Midori & Shinobu";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_midorishinobu.png")
-}
-[character="Midori"][jun] {
-  --name: "Midori & Jun";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_midorijun.png")
-}
-
 [character="Chiaki"][kanataworried] {
   --name: "Chiaki & Kanata";
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_kanatachiakiworried.png")
+}
+[character="Chiaki"][jun]{
+  --name: "Jun & Chiaki";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_junchiaki.png")
+}
+[character="Chiaki"][leo]{
+  --name: "Leo & Chiaki";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_leochiaki.png")
+}
+[character="HiMERU"][chiakisurprised] {
+  --name: "Chiaki & HiMERU";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_himeruchiakisurprised.png");
 }
 
 [character="Kanata"][tatsumi] {
@@ -12576,9 +12585,7 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_kanatatatsumi.png");
 }
 
-[character=MakotoChiaki]{
-  --color: #65ab31;
-  --hue: 94.4;
+[character="Makoto"][chiaki]{
   --name: "Makoto & Chiaki";
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_makotochiaki.png")
 }
@@ -12587,10 +12594,14 @@
   --name: "Mao & Subaru";
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/subarumao_frsighdrop.png");
 }
-
 [character="Mao"][makotosurprised] {
   --name: "Mao & Makoto";
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/maomakoto_surprised.png");
+}
+
+[character="Tatsumi"][jun]{
+  --name: "Jun & Tatsumi";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_juntatsumi.png")
 }
 
 [character="Arashi"][chiakisighdrop] {
@@ -12607,28 +12618,9 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_ritsuleosad.png");
 }
 
-[character=HiMERUChiaki]{
-  --color: #e60033;
-  --hue: 346.7;
-  --name: "Chiaki & HiMERU";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_himeruchiaki.png")
-}
-[character="HiMERUChiaki"][surprised] {
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_himeruchiakisurprised.png");
-}
-
-[character=JunChiaki]{
-  --color: #e60033;
-  --hue: 346.7;
-  --name: "Jun & Chiaki";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_junchiaki.png")
-}
-
-[character=LeoChiaki]{
-  --color: #e60033;
-  --hue: 346.7;
-  --name: "Leo & Chiaki";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_leochiaki.png")
+[character="Jun"][tori]{
+  --name: "Tori & Jun";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_juntori.png")
 }
 
 [character=Tomoya][yume]{
@@ -12641,23 +12633,7 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_tsukasashinobufrownshake.png")
 }
 
-[character=JunTori]{
-  --color: #f5b2b2;
-  --hue: 0;
-  --name: "Tori & Jun";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_juntori.png")
-}
-
-[character=JunTatsumi]{
-  --color: #7ebea5;
-  --hue: 156.6;
-  --name: "Jun & Tatsumi";
-  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_juntatsumi.png")
-}
-
-[character=YuzuruNagisa]{
-  --color: #3e62ad;
-  --hue: 220.5;
+[character="Yuzuru"][nagisa]{
   --name: "Yuzuru & Nagisa";
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_yuzurunagisa.png")
 }
@@ -12675,19 +12651,15 @@
 [character="Tetora"][powerupicon] {
   --icon:url("https://f005.backblazeb2.com/file/reitoouji/ro_M3nxlz68587f27P6.webp?timestamp=1750630188019");
 }
-
 [character="Midori"][powerupicon] {
   --icon:url("https://f005.backblazeb2.com/file/reitoouji/ro_y68587f27lc2JlR1.webp?timestamp=1750630187333");
 }
-
 [character="Shinobu"][powerupicon] {
   --icon:url("https://f005.backblazeb2.com/file/reitoouji/ro_Gyg368587f279v94.webp?timestamp=1750630188350");
 }
-
 [character="Chiaki"][powerupicon] {
   --icon:url("https://f005.backblazeb2.com/file/reitoouji/ro_Wu1ygq68587f27I6.webp?timestamp=1750630187621");
 }
-
 [character="Kanata"][powerupicon] {
   --icon:url("https://f005.backblazeb2.com/file/reitoouji/ro_Jh5w3s168587f277.webp?timestamp=1750630188400");
 }
