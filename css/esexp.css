@@ -8412,6 +8412,9 @@
 [character="Nazuna"][norsmile2] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nazuna_norsmile2.png");
 }
+[character="Nazuna"][norsmile3] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nazuna_norsmile3.png");
+}
 [character="Nazuna"][northinking] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/nazuna_northinking.png");
 }
