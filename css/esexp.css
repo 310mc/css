@@ -1011,6 +1011,9 @@
 [character="Shinobu"][blushshy] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_blushshy.png");
 }
+[character="Shinobu"][blushshocked] {
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_blushshocked.png");
+}
 [character="Shinobu"][blushshysmile] {
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/shinobu_blushshysmile.png");
 }
@@ -12777,6 +12780,10 @@
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/d_makotochiaki.png")
 }
 
+[character="Mao"][shinobusmilegrin] {
+  --name: "Mao & Shinobu";
+  --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/maoshinobu_smgrin.png");
+}
 [character="Mao"][subarufrsighdrop] {
   --name: "Mao & Subaru";
   --icon:url("https://cdn.jsdelivr.net/gh/310mc/css@latest/img/subarumao_frsighdrop.png");
